@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR cyclops sim", "Assembly-CSharp.csproj", "{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR cyclops sim", "AR cyclops sim.csproj", "{9E8EDD7E-0703-A44F-42A6-7FC6397EA294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR cyclops sim.Editor", "AR cyclops sim.Editor.csproj", "{AF7BD068-1FDD-4D68-460C-F737675C124C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +11,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8EDD7E-0703-A44F-42A6-7FC6397EA294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8EDD7E-0703-A44F-42A6-7FC6397EA294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8EDD7E-0703-A44F-42A6-7FC6397EA294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8EDD7E-0703-A44F-42A6-7FC6397EA294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7BD068-1FDD-4D68-460C-F737675C124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7BD068-1FDD-4D68-460C-F737675C124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7BD068-1FDD-4D68-460C-F737675C124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7BD068-1FDD-4D68-460C-F737675C124C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
