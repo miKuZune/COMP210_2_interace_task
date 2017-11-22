@@ -8,7 +8,7 @@ public class LAZER : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        lazer.SetActive(false);
+        lazer.SetActive(true);
 	}
 	
 	// Update is called once per frame
@@ -19,7 +19,7 @@ public class LAZER : MonoBehaviour {
         }
         else
         {
-            lazer.SetActive(false);
+            //lazer.SetActive(false);
         }
 	}
 }
