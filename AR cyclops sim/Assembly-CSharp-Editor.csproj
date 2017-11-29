@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E6527890-A86A-10DB-E794-DA65661025AE}</ProjectGuid>
+    <ProjectGuid>{61BD7647-74DE-4FB1-4134-3D522ACD961B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -46,38 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
-     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
-     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
-     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
-     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
-     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
-     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
-     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
-     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
-     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <Compile Include="Assets\Cardboard\Editor\CardboardEditor.cs" />
+     <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
+     <None Include="Assets\SkySphere_V1\Documentation\How to use.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Cardboard\Resources\RadialUndistortionEffect.shader" />
+     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -135,13 +109,10 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/Max/Desktop/GitHub/Second Year/Comp 210/COMP210_2_interace_task/AR cyclops sim/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{DAA3FA09-ACD8-C9AD-66A2-91C6EA3282B4}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
