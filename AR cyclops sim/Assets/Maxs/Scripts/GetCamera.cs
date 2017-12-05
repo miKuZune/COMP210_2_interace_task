@@ -55,7 +55,7 @@ public class GetCamera : MonoBehaviour {
         objectToTexture.GetComponent<Renderer>().material.mainTexture = backCam;
 
         float ratio = (float)backCam.width/ (float)backCam.height;
-        fit.aspectRatio = ratio;
+        //fit.aspectRatio = ratio;
 
         float scaleY = backCam.videoVerticallyMirrored ? -1f : 1f;
         //background.rectTransform.localScale = new Vector3(1f, scaleY, 1f);

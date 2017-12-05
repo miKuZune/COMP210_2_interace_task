@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DAA3FA09-ACD8-C9AD-66A2-91C6EA3282B4}</ProjectGuid>
+    <ProjectGuid>{DD17E2D6-79FA-10AE-DEEE-7C32EB4B7253}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,6 +67,7 @@
      <Compile Include="Assets\Maxs\Scripts\GetCamera.cs" />
      <Compile Include="Assets\Maxs\Scripts\LAZER.cs" />
      <Compile Include="Assets\Maxs\Scripts\LaserCollision.cs" />
+     <Compile Include="Assets\Maxs\Scripts\MicHandler.cs" />
      <Compile Include="Assets\Maxs\Scripts\Turning.cs" />
      <Compile Include="Assets\Maxs\Scripts\UI\MainMenu.cs" />
      <Compile Include="Assets\Maxs\Scripts\UI\Score.cs" />
