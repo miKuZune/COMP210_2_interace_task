@@ -5,6 +5,8 @@ using UnityEngine;
 public class MicHandler : MonoBehaviour {
 
     public GameObject laser;
+    public AudioClip[] laserSounds;
+    float timer;
 
     public static float MicLoudness;
 
@@ -55,17 +57,34 @@ public class MicHandler : MonoBehaviour {
     {
         if(volume > 0.035f)
         {
+            AudioSource AS = laser.GetComponent<AudioSource>();
             laser.SetActive(true);
+            timer += Time.deltaTime;
+            if(timer < 0.5f)
+            {
+                AS.clip = laserSounds[0];
+                AS.loop = false;
+            }else
+            {
+                AS.clip = laserSounds[1];
+                AS.loop = true;
+            }
+
+            if (!AS.isPlaying)
+            {
+                AS.Play();
+            }
         }else
         {
             laser.SetActive(false);
+            timer = 0;
         }
     }
 
     void Update()
     {
         MicLoudness = LevelMax();
-        Debug.Log(MicLoudness);
+        
         EnableOnLoudEnough(MicLoudness);
     }
 

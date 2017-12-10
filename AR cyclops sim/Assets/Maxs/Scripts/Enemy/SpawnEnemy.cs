@@ -29,10 +29,13 @@ public class SpawnEnemy : MonoBehaviour {
 
         if(timer >= spawnTime)
         {
-            GameObject current = Instantiate(enemy, transform);
-            current.GetComponent<AIwalkTowardPlayer>().moveSpeed = Random.Range(minMoveSpeed, maxMoveSpeed);
-            timer = 0;
-            spawnTime = Random.Range(spawnTimeMin, spawnTimeMax);
+            if (enemy != null)
+            {
+                GameObject current = Instantiate(enemy, transform);
+                current.GetComponent<AIwalkTowardPlayer>().moveSpeed = Random.Range(minMoveSpeed, maxMoveSpeed);
+                timer = 0;
+                spawnTime = Random.Range(spawnTimeMin, spawnTimeMax);
+            }
         }
 	}
 }

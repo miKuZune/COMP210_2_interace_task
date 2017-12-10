@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class LaserCollision : MonoBehaviour {
 
     public GameObject UImanager;
+    float score;
+
 
 	// Use this for initialization
 	void Start () {
@@ -21,9 +23,13 @@ public class LaserCollision : MonoBehaviour {
 
         if(other.gameObject.tag == "Enemy")
         {
-            Destroy(other.gameObject);
-            UImanager.GetComponent<Score>().score++;
-            UImanager.GetComponent<Score>().UpdateScore();
+            if (other.GetComponent<AIwalkTowardPlayer>().health > 0)
+            {
+                other.GetComponent<AIwalkTowardPlayer>().health = 0;
+                score++;
+                UImanager.GetComponent<Score>().score++;
+            }
+            //UImanager.GetComponent<Score>().UpdateScore();
         }
 
     }

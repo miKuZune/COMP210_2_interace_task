@@ -48,6 +48,21 @@
   <ItemGroup>
      <Compile Include="Assets\Cardboard\Editor\CardboardEditor.cs" />
      <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\Build.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\MaterialValueDrawer.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SimulationSettingsValueDrawer.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioBakedStaticListenerNodeInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioCustomSettingsInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioGeometryInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioListenerInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioManagerInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioMaterialInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioMixerReturnGUI.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioProbeBoxInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioReverbGUI.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioSourceInspector.cs" />
+     <Compile Include="Assets\SteamAudio\Editor\SteamAudioWindow.cs" />
+     <None Include="Assets\Asset creditation.txt" />
      <None Include="Assets\SkySphere_V1\Documentation\How to use.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Cardboard\Resources\RadialUndistortionEffect.shader" />
