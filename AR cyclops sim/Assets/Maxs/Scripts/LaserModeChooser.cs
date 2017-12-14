@@ -25,7 +25,7 @@ public class LaserModeChooser : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         timeSinceTouchPress += Time.deltaTime;
-
+        
         if(timeSinceTouchPress > timeToModeChange && Input.touchCount <= 0)
         {
             MBI.enabled = false;

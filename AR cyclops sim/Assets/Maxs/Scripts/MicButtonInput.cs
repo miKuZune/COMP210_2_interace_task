@@ -27,7 +27,7 @@ public class MicButtonInput : MonoBehaviour {
     void Update () {
         
         //For testing in engine.
-        /*if (Input.GetKeyDown(KeyCode.Mouse0) && laser.activeInHierarchy == false && timer > maxTimer)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && laser.activeInHierarchy == false && timer > maxTimer)
         {
             laser.SetActive(true);
             timer = 0;
@@ -35,11 +35,11 @@ public class MicButtonInput : MonoBehaviour {
         {
             laser.SetActive(false);
             timer = 0;
-        }*/
+        }
 
 
         //OnMobile
-        if (Input.touchCount > 0 && laser.activeInHierarchy == false && timer > maxTimer)
+        /*if (Input.touchCount > 0 && laser.activeInHierarchy == false && timer > maxTimer)
         {
             laser.SetActive(true);
             timer = 0;
@@ -50,7 +50,7 @@ public class MicButtonInput : MonoBehaviour {
             laser.SetActive(false);
             timer = 0;
             maxTimer = maxTimer * 2;
-        }
+        }*/
 
 
         //Sound Handling
