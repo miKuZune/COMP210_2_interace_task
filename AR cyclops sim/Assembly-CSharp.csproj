@@ -67,6 +67,8 @@
      <Compile Include="Assets\Maxs\Scripts\GetCamera.cs" />
      <Compile Include="Assets\Maxs\Scripts\LAZER.cs" />
      <Compile Include="Assets\Maxs\Scripts\LaserCollision.cs" />
+     <Compile Include="Assets\Maxs\Scripts\LaserModeChooser.cs" />
+     <Compile Include="Assets\Maxs\Scripts\MicButtonInput.cs" />
      <Compile Include="Assets\Maxs\Scripts\MicHandler.cs" />
      <Compile Include="Assets\Maxs\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Maxs\Scripts\Turning.cs" />
